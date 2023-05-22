@@ -1,0 +1,876 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    /*background: linear-gradient( #040232 0%,#0075c7 40%);*/
+    background: #03021f;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:  #040232;
+}
+
+
+nav{
+    padding-top: 10px;
+}
+
+nav a{
+    display: inline-block;
+    margin-top: -5px;
+}
+
+.logo{
+  color: #fff;
+  font-size: 1.6em;
+  cursor: default;  
+}
+
+.colortext {
+    color: #BD5CBF;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    background:#00a3b9;
+}
+
+.logo2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 1550px;
+    height: 700px;*/
+    padding-bottom: 56.25%;
+    background: linear-gradient( #040232 0%,#0075c7 40%);
+}
+
+.logo2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*pointer-events: none;*/
+    width: 100%;
+}
+
+
+.sec {
+    position: relative; 
+    padding: 100px;
+    padding-top: 30px;
+    background: #03021f;
+}
+
+
+.sec h2 {
+    font-size: 2em;
+    color:#fff;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.sec p {
+    font-size: 1em;
+    color:#fff;
+    font-weight: 400;
+    padding: 10px;
+    text-indent: 3ch;
+}
+
+
+
+
+
+.sec2 {
+    position: relative; 
+    padding: 100px;
+    padding-top: 40px;
+    background: #03021f;
+}
+
+.sec2 h2 {
+    font-size: 2em;
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sec2 p {
+    font-size: 1em;
+    color:#fff;
+    font-weight: 400;
+    padding: 10px;
+    text-indent: 3ch;
+}
+
+
+
+.img-wrap {
+    position: relative;
+    background: #03021f;
+    padding-left: 220px;
+}
+
+.linija{
+    background: #03021f;
+}
+
+.img-center1 {
+    margin: 5px 40px;
+}
+
+.img-center2 {
+    margin: 5px 40px;
+}
+
+.img-center3 {
+    margin: 5px 40px;
+}
+
+
+/*Гіпс*/
+.store1 h2{
+    position: relative;
+    background: #03021f;
+    padding-left: 110px;
+}
+
+.images-store1 {
+    background: #03021f;
+    padding-left: 180px;
+    padding-top: 35px;
+}
+/*Гіпс*/
+
+
+/*Клей*/
+.store2 h2{
+    position: relative;
+    background: #03021f;
+    padding-left: 110px;
+    padding-top: 80px;
+}
+
+.images-store2 {
+    background: #03021f;
+    padding-left: 180px;
+    padding-top: 35px;
+}
+/*Клей*/
+
+
+/*Будівельні суміші*/
+.store3 h2{
+    position: relative;
+    background: #03021f;
+    padding-left: 110px;
+    padding-top: 80px;
+}
+
+.images-store3 {
+    background: #03021f;
+    padding-left: 180px;
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+/*Будівельні суміші*/
+
+
+
+/*Гіпс*/
+.gips1{
+  width: 245px;
+  height: 365px;
+  margin: 0px 20px;
+}
+
+.gips2{
+  width: 245px;
+  height: 365px;
+  margin: 0px 20px;
+}
+
+.gips3{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+
+.gips4{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+/*Гіпс*/
+
+
+/*Клей*/
+.kley1{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+  
+.kley2{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+  
+.kley3{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+  
+.kley4{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+/*Клей*/
+
+
+/*Будівельні суміші*/
+.sumishi1{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+
+.sumishi2{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+
+.sumishi3{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+
+.sumishi4{
+    width: 245px;
+    height: 365px;
+    margin: 0px 20px;
+}
+/*Будівельні суміші*/
+
+
+
+/*Футер*/
+
+
+.container{
+	/*width: 1100px;*/
+    max-width: 100%;
+	/*margin: auto;*/
+    margin-left: 200px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+    margin-top: 110px;
+	background-color: #040232;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #BD5CBF;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.footer-col p{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+    padding: 5px 0px;
+}
+
+.footer-col p1{
+	font-size: 16px;
+	text-transform: lowercase;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+    padding: 5px 0px;
+}
+
+.footer-col h5{
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-top: 142px;
+	font-weight: 500;
+	position: relative;
+}
+
+/*Футер*/
+
+
+/*Прокрутка*/
+#tovary {
+    padding-top: 60px;
+}
+
+#pronas{
+    padding-top: 50px;
+}
+
+#gipsokarton{
+    padding-top: 90px;
+    background: #03021f;
+}
+
+#budivelnisumishi{
+    padding-top: 10px;
+    background: #03021f;
+}
+
+#klej{
+    padding-top: 10px;
+    background: #03021f;
+}
+
+#koshyk{
+    padding-top: 20px;
+}
+#contactus{
+    padding-top: 20px;
+}
+/*Прокрутка*/
+
+
+
+
+
+
+
+
+/*Товари*/
+.container2{
+    width: 1100px;
+    margin: auto;
+    transition: 0.5s;
+    background: #03021f;
+}
+.tovary2{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+    color: #fff;
+    background: #03021f;
+    position: sticky;
+}
+
+.tovary2 h1{
+    background: #03021f;
+}
+
+.tovary2 .shopping{
+    position: relative;
+    text-align: right;
+}
+.tovary2 .shopping img{
+    width: 40px;
+}
+.tovary2 .shopping span{
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+}
+.list .item{
+    text-align: center;
+    background-color: #6F35E9;
+    padding: 20px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    color: #fff;
+}
+.list .item img{
+    width: 90%;
+}
+.list .item .title{
+    font-weight: 600;
+}
+.list .item .price{
+    margin: 10px;
+}
+.list .item button{
+    background-color: #BD5CBF;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.card{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 500px;
+    background-color: #040232;
+    height: 100vh;
+    transition: 0.5s;
+    z-index: 2;
+}
+.active .card{
+    left: calc(100% - 500px);
+}
+.active .container{
+   transform: translateX(-200px);
+}
+.card h1{
+    color: #E8BC0E;
+    font-weight: 100;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+    background-color: #E8BC0E;
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card .checkOut div:nth-child(2){
+    background-color: #1C1F25;
+    color: #fff;
+}
+.listCard li{
+    display: grid;
+    grid-template-columns: 100px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 10px;
+}
+.listCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listCard li img{
+    width: 90%;
+}
+.listCard li button{
+    background-color: #fff5;
+    border: none;
+}
+.listCard .count{
+    margin: 0 10px;
+}
+
+
+
+  video{
+    width: 960px;
+    height: 540px;
+    position: relative;
+    margin-left: 290px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+  }
+
+  /*Відео*/
+
+
+
+/*Контакти, зв'язок
+/* Введення стилю за допомогою type="text", виділення елементів і текстових областей 
+input[type=text], select, textarea {
+    width: 100%; /* Full width
+    padding: 12px; /* Some padding  
+    border: 1px solid #ccc; /* Gray border 
+    border-radius: 4px; /* Rounded borders 
+    box-sizing: border-box; /* Make sure that padding and width stays in place 
+    margin-top: 6px; /* Add a top margin 
+    margin-bottom: 16px; /* Bottom margin 
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) 
+  }
+  
+  /* Стилізуйте кнопку надсилання певним фоновим кольором тощо 
+  input[type=submit] {
+    background-color: #a866a9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Наводячи курсор на кнопку надсилання, додайте темно-зелений колір 
+  input[type=submit]:hover {
+    background-color: #d767d9;
+  }
+  
+  /* Додайте фоновий колір і відступ навколо форми 
+  .contact {
+    margin-top: 30px;
+    width: 700px;
+    border-radius: 30px;
+    margin-left: 490px;
+    background-color: #6F35E9;
+    padding: 20px;
+  }
+
+  .sec4 h2{
+    font-size: 2em;
+    color:#fff;
+    margin-top: 100px;
+    padding: 10px;
+    padding: 6px 15px;
+    margin-left: 430px;
+  }
+Контакти, зв'язок
+*/
+
+/* Загальні стилі для секції */
+.sec4 {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  /* Стилі для заголовка */
+  .sec4 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  /* Стилі для контейнера форми */
+  .sec4 .contact {
+    max-width: 500px;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Стилі для полів вводу */
+  .sec4 input[type="text"],
+  .sec4 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+  }
+  
+  /* Стилі для кнопки відправлення */
+  .sec4 input[type="submit"] {
+    background-color:  #a866a9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #d767d9;
+  }
+  /* Медіа-запит для адаптації на мобільних пристроях */
+ 
+
+
+.ciny {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+  .ciny-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0 20px;
+    padding: 0 50px; /* Відступи зліва та справа */
+  }
+  
+  .ciny-block {
+    background-color: #a866a9;
+    flex: 1 0 25%;
+    max-width: 25%;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 15px 50px;
+  }
+  
+  .ciny-block p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .ciny-block h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .ciny-block span {
+    font-size: 24px;
+  }
+  
+
+
+.ciny-content1{
+    margin-top: 100px;
+}
+.ciny-content1 h3{
+    font-size: 40px;
+    color:#fff;
+    margin-left: 110px;
+    margin-bottom: 70px;
+    border-bottom: 4px solid #6F35E9; 
+    padding-bottom: 10px; 
+}
+
+
+  .ciny1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+  .ciny-row1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0 20px;
+    padding: 0 50px; /* Відступи зліва та справа */
+  }
+  
+  .ciny-block1 {
+    background-color: #a866a9;
+    flex: 1 0 25%;
+    max-width: 25%;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 15px 50px;
+    margin-bottom: 100px;
+  }
+  
+  .ciny-block1 p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+  .ciny-block1 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+  }
+  
+  .ciny-block1 h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    color: #fff;
+  }
+
+  .ciny-block1 span {
+    font-size: 24px;
+  }
+ 
+
+  .ciny1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+  .ciny-row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0 20px;
+    padding: 0 50px; /* Відступи зліва та справа */
+  }
+  
+  .ciny-block2 {
+    background-color: #a866a9;
+    flex: 1 0 25%;
+    max-width: 25%;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 15px 50px;
+    margin-bottom: 100px;
+  }
+  
+  .ciny-block2 p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-indent: 30px;
+  }
+
+  .ciny-block2 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 60px;
+  }
+  
+  .ciny-block2 h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    color: #fff;
+  }
+
+  .ciny-block2 span {
+    font-size: 24px;
+  }
+ 
+
+
+
+  .ciny-block1 a {
+    color: #6F35E9;
+    text-decoration: none;
+    margin-left: 80px;
+    /*font-weight: 600;*/
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.ciny-block1 a:hover, 
+.ciny-block1 a.active {
+    background:#ffffff;
+}
+
+
+.ciny-block2 a {
+    color: #6F35E9;
+    text-decoration: none;
+    margin-left: 90px;
+    /*font-weight: 600;*/
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.ciny-block2 a:hover, 
+.ciny-block2 a.active {
+    background:#ffffff;
+}
